@@ -1,0 +1,155 @@
+
+
+/* google font */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Reuseable */
+header, section, footer{
+    padding: 70px 120px;
+}
+.some {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+button {
+    padding: 10px 25px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #FFF;
+    background: #EB4B79;
+    border: navajowhite;
+    border-radius: 8px;
+    font-weight: 500;
+  }
+/* header section */
+header .col-md-6{
+    width: 40%;
+    float: left;
+}
+header .col-md-6:nth-child(2){
+    float: left;
+    margin-left: 20%;
+}
+header img{
+    width: 100%;
+}
+header h4 {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+header h2 {
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #EB4B79;
+  }
+header p {
+    width: 100%;
+    margin-bottom: 45px;
+    color: #6a6868;
+    line-height: 25px;
+  }
+/* biography section */
+.biography .col-md-6{
+    width: 40%;
+    float: left;
+} 
+.biography .col-md-6:nth-child(2){
+    float: left;
+    margin-left: 20%;
+}
+.biography img{
+    width: 100%;
+}
+.biography h2{
+    margin-bottom: 25px;
+    color: #EB4B79;
+    font-weight: 600;
+    font-size: 35px;
+}
+.biography p{
+    color: #7F7F7F;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+/* working section */
+.working .col-md-4 {
+    width: 30%;
+    float: left;
+  }
+.working img {
+    width: 100%;
+  }
+.working .col-md-4:nth-child(3){
+    float: right;
+}
+.working .col-md-4:nth-child(2){
+    margin: 0 auto;
+}
+.working .heading{
+    width: 30%;
+    margin: auto;
+}
+.working .heading h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.working .rowOne{
+    margin-bottom: 50px;
+}
+/* footer section */
+footer .row.one {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+footer .row.two {
+    width: 17%;
+    margin: auto;
+    margin-bottom: 35px;
+  }
+footer .row.two h5 {
+    font-size: 23px;
+    color: #44484B;
+    font-weight: 600;
+  }
+footer .row.three {
+    width: 58%;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+footer .row.four {
+    width: 55%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 70px;
+    background: #EB4B79;
+    color: #fff;
+    padding: 40px 0;
+    border-radius: 5px;
+  }
+footer .subFour h6 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+footer .subFour h2 {
+    font-size: 45px;
+  }
+footer .row.five {
+    width: 43%;
+    margin: auto;
+  }
+footer{
+    padding-bottom: 0px;
+}
+
+
